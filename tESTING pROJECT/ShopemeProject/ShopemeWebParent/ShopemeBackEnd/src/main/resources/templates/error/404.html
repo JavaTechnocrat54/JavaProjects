@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--it did not redirt the url properly thats why we use thimelip -->
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
+<head th:replace="fragments :: page_head('Error-ShopemeAdmin')">
+
+
+
+<body>
+	<!--This is the cass class for responsive webpage bootstrap  it show the 
+best heading in sub div sesstion -->
+	<div class="container-fluid">
+
+		<div th:replace="nav :: menu"></div>
+
+		<div class="m-3">
+		<h2>Sorry,The Requestd Page Could Not Be Found</h2>
+		</div>
+		
+		
+
+		<div th:replace="fragments :: footer"></div>
+	</div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>

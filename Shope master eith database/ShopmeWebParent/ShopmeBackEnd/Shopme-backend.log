@@ -1,0 +1,85 @@
+2022-09-04 16:06:36.647 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.708 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2022-09-04 16:06:36.726 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:36.727 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2022-09-04 16:06:36.729 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:36.731 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2022-09-04 16:06:36.737 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:36.739 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.740 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.746 DEBUG 15532 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2022-09-04 16:06:36.747 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.749 DEBUG 15532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2022-09-04 16:06:36.749 DEBUG 15532 --- [http-nio-8081-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:36.750 DEBUG 15532 --- [http-nio-8081-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:36.751 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2022-09-04 16:06:36.752 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:36.759 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.762 DEBUG 15532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.784 DEBUG 15532 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.905 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2022-09-04 16:06:36.905 DEBUG 15532 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2022-09-04 16:06:36.909 DEBUG 15532 --- [http-nio-8081-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:36.911 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:36.923 DEBUG 15532 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.935 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:36.988 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css.map", parameters={}
+2022-09-04 16:06:36.990 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:37.049 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:37.069 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2022-09-04 16:06:37.069 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2022-09-04 16:06:37.071 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:37.071 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:37.086 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:37.091 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js.map", parameters={}
+2022-09-04 16:06:37.093 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:37.097 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:37.110 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:37.139 DEBUG 15532 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2022-09-04 16:06:37.144 DEBUG 15532 --- [http-nio-8081-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:37.156 DEBUG 15532 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.494 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/", parameters={}
+2022-09-04 16:06:41.497 DEBUG 15532 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.MainController#viewHomePage()
+2022-09-04 16:06:41.499 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-09-04 16:06:41.664 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.729 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2022-09-04 16:06:41.731 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:41.732 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2022-09-04 16:06:41.733 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:41.737 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2022-09-04 16:06:41.738 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.741 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:41.742 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.745 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2022-09-04 16:06:41.747 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2022-09-04 16:06:41.747 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:41.748 DEBUG 15532 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2022-09-04 16:06:41.748 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.749 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:41.749 DEBUG 15532 --- [http-nio-8081-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:41.752 DEBUG 15532 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.752 DEBUG 15532 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.754 DEBUG 15532 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.960 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2022-09-04 16:06:41.963 DEBUG 15532 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css.map", parameters={}
+2022-09-04 16:06:41.963 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:41.965 DEBUG 15532 --- [http-nio-8081-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:41.968 DEBUG 15532 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:41.996 DEBUG 15532 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:42.104 DEBUG 15532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2022-09-04 16:06:42.109 DEBUG 15532 --- [http-nio-8081-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:42.114 DEBUG 15532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:42.117 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2022-09-04 16:06:42.120 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:42.128 DEBUG 15532 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:42.195 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2022-09-04 16:06:42.196 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js.map", parameters={}
+2022-09-04 16:06:42.197 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2022-09-04 16:06:42.197 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2022-09-04 16:06:42.210 DEBUG 15532 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:06:42.216 DEBUG 15532 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-04 16:07:10.014  INFO 15532 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-04 16:07:10.091  INFO 15532 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-04 16:07:10.109  INFO 15532 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-04 16:07:10.120  INFO 15532 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-04 16:07:10.165  INFO 15532 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

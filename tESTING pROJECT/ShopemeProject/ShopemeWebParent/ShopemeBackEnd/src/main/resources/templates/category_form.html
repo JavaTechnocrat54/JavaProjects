@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--it did not redirt the url properly thats why we use thimelip -->
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<!-- to use the Unicode -->
+	<meta http-equiv="Content-Type" content="text/html" ; charset="=UTF-8">
+	<!--for Responsive In mobile Phone-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>[[${pageTitle}]]</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}" />
+</head>
+
+<body>
+	<!--This is the cass class for responsive webpage bootstrap  it show the 
+best heading in sub div sesstion -->
+	<div class="container-fluid">
+
+	<div th:replace="nav :: menu"></div>
+	</div>
+	<div>
+		<h2>Manage Catagories |[[${pageTitle}]]<h22>
+
+	</div>
+
+	<div>
+		<form th:action="@{/categories/save}" method="POST" style="max-width: 700px; margin: 0 auto;" enctype="multipart/form-data" th:object="${category}"
+			onsubmit="return checkEmailUnique(this);">
+			<input type="hidden" th:field="*{id}">
+			<div class="border border-secondary rounded p-3">
+				<div class="form-group row">
+					<label class="col-sm-4 col-form-lable">Category Name</label>
+					<div class="col-sm-8">
+						<input type="text" class="form-control" th:field="*{name}" required minlength="3"
+							maxlength="128" />
+
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-4 col-form-lable">Alias</label>
+					<div class="col-sm-8">
+						<input type="text" class="form-control" th:field="*{alias}" required minlength="3"
+							maxlength="64" />
+
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-4 col-form-lable">Parent Category</label>
+					<div class="col-sm-8">
+						<select class="form-control" th:field="*{parent}">
+						<option value="0">[No Parent]</option>
+						<th:block th:each="cat: ${listCategories}">
+						
+						<option th:value="${cat.id}">[[${cat.name}]]</option>
+						</th:block>
+						
+						</select>
+					</div>
+				</div>
+				
+				
+				<div class="form-group row">
+					<label class="col-sm-4 col-form-lable">Enable</label>
+					<div class="col-sm-8">
+						<input type="checkbox" th:field="*{enabled}">
+
+					</div>
+				</div>
+					<div class="form-group row">
+					<label class="col-sm-4 col-form-lable">Image</label>
+					<div class="col-sm-8">
+					<input type="hidden" th:field="*{image}"/>
+						<input type="file" id="fileImage" accept="image/png, image/jepg"  name="fileImage">
+						
+						<div class="mt-2">	<img id="thumbnail" alt="Image preview" 
+							style="width: 100px;"/></div>
+					</div>
+				</div>
+				<div class="text-center">
+
+					<input type="submit" value="Save" class="btn btn-primary">
+					<input type="button" value="cancle" class="btn btn-secondary" id="buttoncancel">
+
+				</div>
+
+			</div>
+		</form>
+	</div>
+	<div th:replace="fragments :: footer"></div>
+	</div>
+
+
+
+	<script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+	<script>
+		moduleURl="[[@{/categories}]]";
+	</script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--it did not redirt the url properly thats why we use thimelip -->
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<!-- to use the Unicode -->
+	<meta http-equiv="Content-Type" content="text/html" ; charset="=UTF-8">
+	<!--for Responsive In mobile Phone-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>Login-ShopemeAdmin</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}" />
+	<link rel="stylesheet" type="text/css" th:href="@{/fontawesome/all.css}" />
+</head>
+
+<body>
+	<!--This is the cass class for responsive webpage bootstrap  it show the 
+best heading in sub div sesstion -->
+	<div class="container-fluid text-center">
+		<div>
+			<img th:src="@{/images/ShopmeAdminBig.png}" />
+
+		</div>
+
+
+
+		<form th:action="@{/login}" method="POST" style="max-width:350px; margin: 0 auto;">
+		
+		<div th:if="${param.error}">
+		<p class="text-danger">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
+		</div>
+		<div th:if="${param.logout}">
+	<p class="text-warning">You have Been Logout</p>
+	</div>
+			<div class="border border-secondary rounded rounded p-3 ">
+				<p>Access To Control Panel</p>
+				<p>
+					<input type="email" name="email" class="form-control" placeholder="E-mail" required />
+				</p>
+				<p>
+					<input type="password" name="password" class="form-control" placeholder="Password" required />
+				</p>
+				<p>
+					<input type="submit" value="Login" class="btn btn-primary" />
+				</p>
+			</div>
+		</form>
+
+		<div>
+			<p>Shopeme Control panel -Copyright &copy;shopemne</p>
+
+		</div>
+	</div>
+
+</body>
+
+
+</html>

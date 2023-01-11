@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--it did not redirt the url properly thats why we use thimelip -->
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments :: page_head('Users- ShopemeAdmin')">
+</head>
+<body>
+	<!--This is the cass class for responsive webpage bootstrap  it show the 
+best heading in sub div sesstion -->
+	<div class="container-fluid">
+
+	<div th:replace="nav :: menu"></div>
+	</div>
+	<div>
+		<h2>Manage users<h2>
+				<a class="btn btn-info" th:href="@{/users/new}">+Create New User</a>
+	</div>
+	<div th:if="${message != null}" class="alert alert-success text-center">
+		[[${message}]]
+	</div>
+	<div>
+		<table class="table table-borderd table-striped table-hover table-responsive-xl">
+			<thead class="thead-dark">
+				<tr>
+					<th>User Id</th>
+
+					<th>Photo</th>
+					<th>Email id</th>
+					<th>First Name</th>
+
+					<th>Last Name</th>
+
+					<th>Roles</th>
+
+					<th>Enabled</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="user : ${listUsers}">
+
+					<td>[[${user.id}]]</td>
+					<td>
+					<spant th:if="${user.photos==null}" class="fas fa-portrait fa-3x icon-dark"></spant>
+					<img th:if="${user.photos!=null}" th:src="@{${user.getPhotosImagePath}}" 
+					style="width: 100px;"/>
+					</td>
+					<td>[[${user.email}]]</td>
+					<td>[[${user.firsName}]]</td>
+					<td>[[${user.lastName}]]</td>
+					<td>[[${user.roles}]]</td>
+					<td>
+						<a th:if="${user.enabled == true}" class="fas fa-check-circle fa-2x icon-green"
+							th:href="@{'/users/' + ${user.id}+'/enabled/false'}" title="Disable This User"></a>
+						<a th:if="${user.enabled == false}" class="fas fa-circle fa-2x icon-dark"
+							th:href="@{'/users/' + ${user.id}+'/enabled/true'}" title="Disable This User"></a>
+					</td>
+					<td><a class="fas fa-edit fa-2x icon-blue" th:href="@{'/users/edit/' +${user.id}}"
+							title="Edit This User"></a> &nbsp;
+						<a class="fas fa-trash fa-2x icon-dark link-delete" th:href="@{'/users/delete/' +${user.id}}"
+							title="Delete This User"></a>
+					</td>
+				</tr>
+
+
+			</tbody>
+		</table>
+
+		<div class="modal fade text-center" id="confirmModal">
+			<div class="model-dialog">
+				<div class="model-content">
+					<div class="model-header">
+						<h4 class="model-title" id="modalTitle">Delete Confirmation</h4>
+						<button type="button" class="close" date-dismiss="modal">&times;</button>
+					</div>
+					<div class="model-body">
+						<span id="modelBody">
+							<span> Are Your Sure To delete This user ID</span>
+						</span>
+						<div class="modal-footer">
+							<a clss="btn btn-success" href=""></a>
+						</div>
+						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div th:replace="fragments :: footer"></div>
+	</div>
+
+
+
+	<script>
+		/*$(document).ready(function () {
+			$(".link-delete").on("click", function (e) {
+				e.preventDefault();
+				//alert($(this).attr("href"));
+				$("#confirmModal").modal();
+			});
+
+		});*/
+
+
+	</script>
+
+
+</body>
+
+
+</html>

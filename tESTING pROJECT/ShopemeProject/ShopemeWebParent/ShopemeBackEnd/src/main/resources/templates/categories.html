@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--it did not redirt the url properly thats why we use thimelip -->
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments :: page_head('Users- ShopemeAdmin')">
+</head>
+<body>
+	<!--This is the cass class for responsive webpage bootstrap  it show the 
+best heading in sub div sesstion -->
+	<div class="container-fluid">
+
+	<div th:replace="nav :: menu"></div>
+	</div>
+	<div>
+		<h2>Manage Category<h2>
+				<a class="btn btn-info" th:href="@{/categories/new}">+AddCategory</a>
+	</div>
+	<div th:if="${message != null}" class="alert alert-success text-center">
+		[[${message}]]
+	</div>
+	<div>
+		<table class="table table-borderd table-striped table-hover table-responsive-xl">
+			<thead class="thead-dark">
+				<tr>
+					<th>Id</th>
+
+					<th>Category Photo</th>
+									<th>Category  Name</th>
+
+					<th>Alias</th>
+					<th>Enabled</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="cat : ${listCategories}">
+
+					<td>[[${cat.id}]]</td>
+				<td></td>
+					
+					<td>[[${cat.name}]]</td>
+					
+					<td>[[${cat.alias}]]</td>
+					
+					<td>
+						<a th:if="${cat.enabled == true}" class="fas fa-check-circle fa-2x icon-green"
+							 title="Disable This User"></a>
+						<a th:if="${cat.enabled == false}" class="fas fa-circle fa-2x icon-dark"
+							 title="Enable This User"></a>
+					</td>
+					<td><a class="fas fa-edit fa-2x icon-blue" 
+							title="Edit This User"></a> &nbsp;
+						<a class="fas fa-trash fa-2x icon-dark link-delete"
+							title="Delete This User"></a>
+					</td>
+				</tr>
+
+
+			</tbody>
+		</table>
+
+		
+
+
+	<div th:replace="fragments :: footer"></div>
+	</div>
+
+
+
+
+
+</body>
+
+
+</html>
